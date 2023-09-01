@@ -9,14 +9,14 @@ Boss::Boss(int num, string name, int dept)
 
 void Boss::showinfo()
 {
-	cout << "Ö°¹¤±àºÅ£º" << num << "\t"
-		<< "Ö°¹¤ÐÕÃû£º" << name << "\t"
-		<< "Ö°¹¤²¿ÃÅ£º" << this->getdept() << "\t"
-		<< "Ö°¹¤Ö°Ôð£ºËäÈ»ÓÐÇ®£¬µ«ÏëÒª¸ü¶àµÄÇ®£¬ËùÒÔÑ¹Õ¥Ô±¹¤" << endl;
+	cout << "èŒå·¥ç¼–å·ï¼š" << num << "\t"
+		<< "èŒå·¥å§“åï¼š" << name << "\t"
+		<< "èŒå·¥éƒ¨é—¨ï¼š" << this->getdept() << "\t"
+		<< "èŒå·¥èŒè´£ï¼šè™½ç„¶æœ‰é’±ï¼Œä½†æƒ³è¦æ›´å¤šçš„é’±ï¼Œæ‰€ä»¥åŽ‹æ¦¨å‘˜å·¥" << endl;
 
 }
 
 string Boss::getdept()
 {
-	return string("Éµ±ÆÀÏ°å");
+	return string("è€æ¿");
 }
