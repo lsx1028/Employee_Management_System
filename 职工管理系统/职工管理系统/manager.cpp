@@ -9,14 +9,14 @@ Manager::Manager(int num, string name, int dept)
 
 void Manager::showinfo()
 {
-	cout << "Ö°¹¤±àºÅ£º" << num << "\t"
-		<< "Ö°¹¤ĞÕÃû£º" << name << "\t"
-		<< "Ö°¹¤²¿ÃÅ£º" << this->getdept() << "\t"
-		<< "Ö°¹¤Ö°Ôğ£º±»BOSSÑ¹Õ¥£¬ËùÒÔÖ»ÄÜÈöÆøÔÚµ×²ãÔ±¹¤ÉíÉÏ" << endl;
+	cout << "èŒå·¥ç¼–å·ï¼š" << num << "\t"
+		<< "èŒå·¥å§“åï¼š" << name << "\t"
+		<< "èŒå·¥éƒ¨é—¨ï¼š" << this->getdept() << "\t"
+		<< "èŒå·¥èŒè´£ï¼šè¢«BOSSå‹æ¦¨ï¼Œæ‰€ä»¥åªèƒ½æ’’æ°”åœ¨åº•å±‚å‘˜å·¥èº«ä¸Š" << endl;
 
 }
 
 string Manager::getdept()
 {
-	return string("¹·±È¹ÜÀí");
+	return string("ç®¡ç†");
 }
